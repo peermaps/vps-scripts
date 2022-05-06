@@ -1,0 +1,13 @@
+{
+  "name": "hyperdrive-cmd",
+  "version": "1.0.0",
+  "bin": {
+    "hyperdrive-cmd": "cmd.js"
+  },
+  "dependencies": {
+    "hyperdrive": "^10.21.0",
+    "hyperswarm": "^2.15.3",
+    "minimist": "^1.2.5",
+    "pump": "^3.0.0"
+  }
+}
