@@ -10,7 +10,7 @@ if test $(screen -list | grep -E '^\s[0-9]+\.hyperdrive\b' | wc -l) -eq 0; then
   screen -dmS hyperdrive
   screen -x hyperdrive -X stuff 'hyperdrive-cmd share ~/data/peermaps/peermaps.hyperdrive\n'
   screen -x hyperdrive -X screen
-  screen -x hyperdrive -X stuff 'hyperdrive-cmd share ~/data/peermaps/ne.hyperdrive\n'
+  screen -x hyperdrive -X stuff 'hyperdrive-cmd share ~/data/ne.hyperdrive\n'
   screen -x hyperdrive -X screen
   screen -x hyperdrive -X stuff 'hyperdrive-cmd share ~/data/cities500\n'
 fi
